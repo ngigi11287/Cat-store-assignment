@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Our Pet Store - Your one-stop shop for pets, supplies, grooming, and more!">
+    <title>Pet Store</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Our Pet Store</h1>
+        <p>Your one-stop shop for pets, supplies, grooming, and more!</p>
+    </header>
+    <main>
+        <article>
+            <h3>Our Article.</h1>
+                <p>Pets bring joy, companionship, and unconditional love to our lives,making them cherished member of the family.</p>
+        </article>
+    </main>
+    <nav>
+        <a href="#available-pets">Available Pets</a>
+        <a href="#services">Our Services</a>
+        <a href="#contact-us">Contact Us</a>
+        <a href="#map">Store Location</a>
+    </nav>
+
+    <section id="available-pets">
+        <h2>Available Pets</h2>
+        <div class="content">
+            <div>
+                <h3>Dogs</h3>
+                <img src="dog.jpg.jpeg" alt="Cute dogs" title="Cutes friendly dogs">
+                <p>We have a variety of friendly dogs available for adoption.<br>Come visit us and find your new best friend!</p>
+            </div>
+            <div>
+                <h3>Cats</h3>
+                <img src="./cat.jpg.jpeg" alt="Cute cat" title="Cutes friendly dogs">
+                <p>Our adorable cats are waiting for a loving home.<br>Come meet our feline friends!</p>
+            </div>
+            <div>
+                <h3>Birds</h3>
+                <img src="./bird.jpg.jpeg" alt="Cute bird" title="Cutes friendly dogs">
+                <p>We have a selection of colorful and lively birds for adoption.<br>Visit us to find your perfect feathered companion!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Grooming Services</li>
+            <li>Veterinary Care</li>
+            <li>Pet Training</li>
+            <li>Pet Supplies</li>
+        </ul>
+        <h3>Pet Pricing</h3>
+        <table>
+            <tr>
+                <th>Pet</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Dog</td>
+                <td>50,000</td>
+            </tr>
+            <tr>
+                <td>Cat</td>
+                <td>30,000</td>
+            </tr>
+            <tr>
+                <td>Bird</td>
+                <td>25,000</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need more information, feel free to reach out!</p>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+            <lablel for="choices">Choose your gender</lablel>
+            <select id="choices" name="Gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="map">
+        <h2>Store Location</h2>
+        <p>Visit us at our location!</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d522821928.52517164!2d36.82756933271491!3d-1.2851133055011679!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f116c9a0a9be9%3A0x2d2f9d2dfea2f926!2sNairobi%20City%20Centre%20Mall!5e0!3m2!1sen!2ske!4v1731584590372!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pet Store. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
